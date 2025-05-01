@@ -1,0 +1,20 @@
+1|Popcorn|$23.00|palomitas.png
+2|Chocolate|$18.50|chocolate.png
+3|Cola Drink|$15.00|refresco_cola.png
+4|Cookies|$12.75|galletas.png
+5|Potato Chips|$20.00|papas_fritas.png
+6|Bottled Water|$10.00|agua_embotellada.png
+7|Natural Juices|$22.50|jugos_naturales.png
+8|Cereal Bar|$17.00|barra_cereal.png
+9|Ice Cream|$25.00|helado.jpg
+10|Peanuts|$14.00|mani.png
+11|Gum|$5.00|chicle.jpg
+12|Nachos|$30.00|nachos.jpg
+13|Gummy Candy|$19.50|dulces_gomita.png
+14|Ice Pop|$15.00|paleta_hielo.png
+15|Peanuts|$13.00|cacahuates.png
+16|Energy Drink|$35.00|bebida_energetica.png
+17|Brownie|$28.00|brownie.png
+18|Drinkable Yogurt|$18.00|yogur_bebible.png
+19|Dried Fruit|$26.50|fruta_deshidratada.png
+20|Pretzels|$21.00|pretzels.png

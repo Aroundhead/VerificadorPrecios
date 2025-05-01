@@ -1,0 +1,20 @@
+1|Palomitas|$23.00|palomitas.png
+2|Chocolate|$18.50|chocolate.png
+3|Refresco de Cola|$15.00|refresco_cola.png
+4|Galletas|$12.75|galletas.png
+5|Papas Fritas|$20.00|papas_fritas.png
+6|Agua Embotellada|$10.00|agua_embotellada.png
+7|Jugos Naturales|$22.50|jugos_naturales.png
+8|Barra de Cereal|$17.00|barra_cereal.png
+9|Helado|$25.00|helado.jpg
+10|Maní|$14.00|mani.png
+11|Chicle|$5.00|chicle.jpg
+12|Nachos|$30.00|nachos.jpg
+13|Dulces de Gomita|$19.50|dulces_gomita.png
+14|Paleta de Hielo|$15.00|paleta_hielo.png
+15|Cacahuates|$13.00|cacahuates.png
+16|Bebida Energética|$35.00|bebida_energetica.png
+17|Brownie|$28.00|brownie.png
+18|Yogur Bebible|$18.00|yogur_bebible.png
+19|Fruta Deshidratada|$26.50|fruta_deshidratada.png
+20|Pretzels|$21.00|pretzels.png
