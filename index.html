@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verificador de Precios</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./data/productosEs.js"></script>
+  <script src="./data/productosEn.js"></script>
+  <script defer src="./js/function.js"></script>
+</head>
+<body>
+
+  <header id="header">
+    <img src="./img/carrito.png" alt="Carrito" class="icon-top-left">
+    <div id="fecha-hora"></div>
+    <div id="toggles">
+        <div class="toggle">
+            🇲🇽
+            <label class="toggle-switch" id="toggle-idioma">
+              <input type="checkbox">
+              <span class="slider"></span>
+            </label>
+            <span class="flag-text">🇺🇸</span>
+        </div>
+      <div class="toggle">
+        ☀️
+        <label class="toggle-switch" id="toggle-mode">
+          <input type="checkbox">
+          <span class="slider"></span>
+        </label>
+        <span class="flag-text">🌙</span>
+      </div>
+    </div>
+    <img src="./img/etiqueta.png" alt="Etiqueta" class="icon-top-right">
+  </header>
+
+  <main id="main">
+    <div id="respuesta">
+      <img src="./img/barcode.gif" alt="Barcode" id="barcode-img">
+      <h2 id="titulo-CodigoBarras">Código de Barras</h2>
+    </div>
+  </main>
+
+</body>
+</html>

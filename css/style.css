@@ -1,0 +1,117 @@
+:root {
+    --background: aliceblue;
+    --text: #232324;
+    --toggle: #4caf50;
+    --ball: #5c5a54;
+  }
+  
+  .darkmode {
+    --background: #232324;
+    --text: aliceblue;
+    --toggle: #596aa8;
+    --ball: white;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    position: relative;
+  }
+  
+  .icon-top-left,
+  .icon-top-right {
+    width: 50px;
+    height: auto;
+  }
+  
+  #fecha-hora {
+    font-size: 1rem;
+  }
+  
+  #toggles {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .toggle {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+  }
+  
+  /* Toggle switches */
+  .toggle-switch {
+    position: relative;
+    width: 50px;
+    height: 24px;
+  }
+  
+  .toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .flag-text {
+    margin-left: 10px; /* or 10px if you want more space */
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 24px;
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.3s;
+  }
+  
+  .slider::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 2px;
+    background-color: var(--ball);
+    border-radius: 50%;
+    transition: transform 0.3s;
+  }
+  
+  .toggle-switch input:checked + .slider {
+    background-color: var(--toggle);
+  }
+  
+  .toggle-switch input:checked + .slider::before {
+    transform: translateX(26px);
+  }
+  
+  #main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #barcode-img {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+
+  
+  
